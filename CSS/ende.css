@@ -1,0 +1,24 @@
+body{
+    background-color: gold;
+}
+h1{
+    color: rgb(210, 30, 111);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: initial;
+}
+p{
+    color: aliceblue;
+}
+.gut{
+    color: blanchedalmond;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+span{
+    color: lightpink;
+    font-family: cursive;
+    font-size: medium;
+    font-weight: 700;
+}

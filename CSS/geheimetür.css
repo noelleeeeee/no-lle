@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(255, 87, 177);
+}
+.überschrifti{
+    color: darkorchid;
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: unset;
+}
+#wow{
+    color: rgb(243, 180, 217);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: x-large;
+    font-weight: 800;
+}
+#juhuu{
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: initial;
+    font-weight: 500;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/ende.css">
+<title>Tabelle</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 4px;
+      background-color: #f4f4f4;
+    }
+  
+    table {
+      width: 30%;
+      border-collapse: collapse; 
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    thead {
+      background-color: #3498db;
+      color: white;
+    }
+  
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+      border: 1px solid #ccc; 
+    }
+  
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  
+    caption {
+      caption-side: top;
+      text-align: center;
+      padding: 10px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  
+    @media (max-width: 30px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+  
+      th {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+  
+      td {
+        position: relative;
+        padding-left: 50%;
+        border: none;
+        border-bottom: 1px solid #eee;
+      }
+  
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 16px;
+        font-weight: bold;
+      }
+    }
+  </style>
+</head>
+<body>
+<table>
+<thead>
+<tr>
+<th>Nummer</th>
+<th>Bild</th>
+<th>Link</th>
+<th>Verbundene Nummern</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><img src="IMG/zipline-5.jpg" height="100px"> <img src="IMG/langer weg.jpg" height="100px"></td>
+<td><a href="index.html">Start</a></td>
+<td>2, 3</td>
+</tr>
+<tr>
+<td>2</td>
+<td><img src="IMG/weg schwimmen.jpg" height="100px"> <img src="IMG/baumstamm.jpg" height="100px"></td>
+<td>
+    <a href="zipline.html">Zipline</a>
+</td>
+<td>4, 5</td>
+</tr>
+<tr>
+<td>3</td>
+<td><img src="IMG/rutschigesteine.jpg" height="100px"> <img src="IMG/baumstamm.jpg" height="100px"></td>
+<td><a href="langerweg.html">Langer Weg</a></td>
+<td>5, 6</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td><img src="IMG/haifrisstdich.jpg" height="100px"></td>
+    <td><a href="wegschwimmen.html">Hai</a></td>
+    <td>1</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td><img src="IMG/beeren.avif" height="100px"> <img src="IMG/dornenhecke.jpg" height="100px"></td>
+    <td><a href="baumstamm.html">Baumstamm</a></td>
+    <td>7, 8</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td><img src="IMG/ertrinken-1-1024x576.jpg" height="100px"></td>
+        <td><a href="rutschigesteine.html">Steine</a></td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td><img src="IMG/fliegen.webp" height="100px"> <img src="IMG/Superstark.webp" height="100px"></td>
+        <td><a href="beerenessen.html">Beeren essen</a></td>
+        <td>9, 10</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td><img src="IMG/Schwindel.jpg" height="100px"></td>
+        <td><a href="keinebeerenessen.html">verhungern</a></td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td><img src="IMG/Berg.jpg" height="100px"> <img src="IMG/Tunnel.jpg" height="100px"></td>
+        <td><a href="fliegen.html">fliegen</a></td>
+        <td>14, 15</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td><img src="IMG/kämpfen.jpg" height="100px"> <img src="IMG/kraueln.jpg" height="100px"></td>
+        <td><a href="superstark.html">Superstark</a></td>
+        <td>11, 12</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td><img src="IMG/tod.png" height="100px"></td>
+        <td><a href="kämpfen.html">kämpfen</a></td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td><img src="IMG/Tunnel.jpg" height="100px"> <img src="IMG/tiger.jpg" height="100px"> </td>
+        <td><a href="kraulen.html">kraueln</a></td>
+        <td>13, 15</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td><img src="IMG/tod.png" height="100px"> </td>
+        <td><a href="Tiger.html">weiter reiten</a></td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td><img src="IMG/Start.jpg" height="100px"></td>
+        <td><a href="Berg.html">Berg</a></td>
+        <td>1</td>
+        <tr>
+            <td>15</td>
+            <td><img src="IMG/geheimetür.jpg" height="100"></td>
+            <td><a href="Tunnel.html">Tunnel</a></td>
+            <td>16, 17</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td><img src="IMG/stein.jpg" height="100px"></td>
+            <td><a href="nein.html">nein</a></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td><img src="IMG/villa.jpg" height="100px"></td>
+            <td><a href="ja.html">ja</a></td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td></td>
+            <td><a href="übersicht.html">Übersicht</a>
+            </td>
+            <td>19</td>
+        </tr>
+    </tr>
+</tbody>
+</table>
+</body>
