@@ -1,0 +1,40 @@
+body {
+    background-color: crimson;
+}
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    color: black;
+}
+.p{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    font-style: oblique;
+}
+a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tiger{
+    color: rgb(255, 163, 97);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#rutschige{
+    color: rgb(81, 0, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ah{
+    color: yellow;
+    font-family: cursive;
+    font-style: calc();
+    font-weight: 600;
+    font-size: medium;
+}
